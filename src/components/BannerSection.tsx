@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { Container, Row, Col } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 
 interface BannerSectionProps {
   imageUrl: string;
