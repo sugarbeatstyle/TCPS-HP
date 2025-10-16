@@ -7,6 +7,7 @@ const AboutSection: React.FC = () => {
     <section id="about" className="py-5 bg-dark text-white">
       <Container>
         <Fade direction="up" triggerOnce>
+
           <h2 className="text-center mb-4">About</h2>
           <p className="lead text-center mb-3">
             「毎日にちょっと効く、チルでPOPでごきげんな作業用BGM」をテーマに、チルポップやlofi系の洋楽BGMを配信中。
