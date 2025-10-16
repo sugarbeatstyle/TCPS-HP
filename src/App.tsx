@@ -2,6 +2,7 @@ import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
+import LineButton from './components/LineButton';
 import AboutSection from './components/AboutSection';
 import CreatorSection from './components/CreatorSection';
 import SeasonSection from './components/SeasonSection';
@@ -16,6 +17,7 @@ import './App.css';
 const MainPage = () => (
   <>
     <HeroSection />
+    <LineButton />
     <AboutSection />
     <CreatorSection />
     <SeasonSection />

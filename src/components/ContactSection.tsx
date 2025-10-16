@@ -22,6 +22,10 @@ const ContactSection: React.FC = () => {
             お問い合わせフォーム
           </Button>
 
+          <div className="line-button-container my-4">
+            <a href="https://lin.ee/POyRMnh"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="72" border="0"></img></a>
+          </div>
+
           <div className="social-icons mt-4">
             <a href="https://x.com/maychan1996" target="_blank" rel="noopener noreferrer" className="text-white mx-3 fs-2 social-icon-hover">
               <i className="fab fa-twitter"></i> {/* X (Twitter) */}
