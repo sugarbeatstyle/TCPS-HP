@@ -7,6 +7,9 @@ const AboutSection: React.FC = () => {
     <section id="about" className="py-5 bg-dark text-white">
       <Container>
         <Fade direction="up" triggerOnce>
+          <div className="text-center mb-4">
+            <a href="https://lin.ee/POyRMnh"><img src="https://scdn.line-apps.com/n/line_add_friends/btn/ja.png" alt="友だち追加" height="72" border="0" /></a>
+          </div>
           <h2 className="text-center mb-4">About</h2>
           <p className="lead text-center mb-3">
             「毎日にちょっと効く、チルでPOPでごきげんな作業用BGM」をテーマに、チルポップやlofi系の洋楽BGMを配信中。
